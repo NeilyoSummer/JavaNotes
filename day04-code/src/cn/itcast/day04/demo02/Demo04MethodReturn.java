@@ -2,7 +2,13 @@ package cn.itcast.day04.demo02;
 
 /*
 题目要求：
-    定义一个方法，用来求出两个数字之和。（你帮我算，算完之后把结果告诉我。）
+    定义一个方法，用来【求出】两个数之和。（你帮我算，算完之后把结果告诉我。）
+题目变形：
+    定义一个方法，用来【打印】两个数之和。（你来计算，算完之后自己负责显示结果，不用告诉我。）
+
+注意事项：
+    对于有返回值的，可以使用单独调用、打印调用或者赋值调用。
+    但是对于没有返回值的方法，只能使用单独调用，不能使用打印调用或者赋值调用
  */
 public class Demo04MethodReturn {
     public static void main(String[] args) {
@@ -12,6 +18,18 @@ public class Demo04MethodReturn {
         System.out.println("返回值：" + num);
         System.out.println("=============");
         printSum(100, 200);
+        System.out.println("=============");
+        System.out.println(getSum(2, 3));
+        getSum(3, 5);
+        System.out.println("=============");
+
+        // 对于void没有返回值的方法，只能单独使用，不能打印或者赋值。
+        // 以下是错误代码：
+        // System.out.println(printSum(2, 3));
+        // System.out.println(void);
+
+        // int num2 = printSum(10, 20);
+        // int num3 = void;
     }
 
     // 我是一个方法，负责两个数字相加
