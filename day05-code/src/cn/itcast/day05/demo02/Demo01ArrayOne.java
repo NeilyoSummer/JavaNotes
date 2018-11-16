@@ -14,7 +14,7 @@ public class Demo01ArrayOne {
         array[2] = 20;
         System.out.println(array); // 地址值
         System.out.println(array[0]); // 0
-        System.out.println(array[1]); // 0
-        System.out.println(array[2]); // 0
+        System.out.println(array[1]); // 10
+        System.out.println(array[2]); // 20
     }
 }
