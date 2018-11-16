@@ -33,14 +33,6 @@ package cn.itcast.day05.demo01;
  */
 public class Demo01Array {
     public static void main(String[] args) {
-        // int score1 = 100;
-        // int score2 = 98;
-        // int score3 = 99;
-        //
-        // System.out.println(score3);
-        // score3 = 100;
-        // System.out.println(score3);
-
         // 创建一个数组，里面可以存放300个int数组
         // 格式： 数据类型[] 数组名称 = new 数据类型[数组长度]
         int[] arrayA = new int[300];
