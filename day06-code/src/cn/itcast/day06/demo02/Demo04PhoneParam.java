@@ -2,6 +2,9 @@ package cn.itcast.day06.demo02;
 
 /*
 把类对象当做参数传递给普通static方法
+
+当一个对象作为参数，传递到方法当中时，
+实际上传递进去的是对象的地址值。
  */
 public class Demo04PhoneParam {
     public static void main(String[] args) {
