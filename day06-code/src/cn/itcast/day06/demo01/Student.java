@@ -19,6 +19,9 @@ package cn.itcast.day06.demo01;
         public void eat() {}    // 吃饭
         public void sleep() {}  // 睡觉
         public void study() {}  // 学习
+注意事项：
+1. 成员变量是直接定义在类当中的，在方法外面。
+2. 成员方法不要写static关键字。
  */
 public class Student {
     // 成员变量
