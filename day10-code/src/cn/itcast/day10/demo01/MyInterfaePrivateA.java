@@ -20,17 +20,17 @@ private static 返回值类型 方法名称（参数列表）{
 public interface MyInterfaePrivateA {
     public default void methodDefault1() {
         System.out.println("默认方法1");
-        methodCommon();
+        // methodCommon();
     }
 
     public default void methodDefault2() {
         System.out.println("默认方法2");
-        methodCommon();
+        // methodCommon();
     }
 
-    private void methodCommon() {
-        System.out.println("AAA");
-        System.out.println("BBB");
-        System.out.println("CCC");
-    }
+    // private void methodCommon() {
+    //     System.out.println("AAA");
+    //     System.out.println("BBB");
+    //     System.out.println("CCC");
+    // }
 }
